@@ -4,7 +4,7 @@ langs.each {
 }
 apply plugin : 'war'
 apply plugin : 'idea'
-apply plugin : 'jetty'
+apply plugin : 'gretty'
 
 group = 'org.mikeneck.web.sample'
 version = '1.0.0'
